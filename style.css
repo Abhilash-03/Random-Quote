@@ -1,0 +1,51 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: black;
+    color: black;
+}
+
+#quote-box{
+    padding: 1rem 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px;
+    height: auto;
+    border: 2px solid;
+    margin:11rem auto;
+    border-radius: 5px;
+    font-size: 30px;
+    background-color: white;
+}
+
+button{
+    padding: 6px 22px;
+    font-size: 16px;
+    border: 2px solid;
+    cursor: pointer;
+    margin: 1rem;
+    border-radius: 5px;
+    color: white;
+    background-color: black;
+}
+
+#author{
+    margin-left: 27rem;
+    margin-top: 1rem;
+    font-size: 24px;
+}
+
+#quote-left{
+    margin-right: 3px;
+    margin-bottom: 5px;
+}
+
+#twitterIcon{
+    color: white;
+}
