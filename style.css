@@ -87,7 +87,9 @@ button{
        }
 
        #author{
-           margin-left: 6rem;;
+           margin-left: 6rem;
+           font-weight: 600;
+   
         }
         
         button{
@@ -104,6 +106,8 @@ button{
         
         #author{
             margin-left: 3rem;
+            font-weight: 600;
+
         }
         #new-quote{
             margin-top: 13px;
