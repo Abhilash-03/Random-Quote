@@ -22,6 +22,7 @@ body{
     border-radius: 5px;
     font-size: 30px;
     background-color: white;
+    transition: all .7s ease-in-out;
 }
 
 button{
@@ -48,4 +49,61 @@ button{
 
 #twitterIcon{
     color: white;
+}
+
+/* Responsiveness Media query */
+
+@media  screen  and ( max-width: 750px) {
+       #quote-box{
+           width: 590px;
+       }
+    
+}
+
+
+@media  screen  and ( max-width: 630px) {
+    #quote-box{
+        width:   410px;
+        font-size: 20px;
+    }
+    
+    #author{
+        font-size: 17px;
+        font-weight: 600;
+        font-family: 'Courier New', Courier, monospace;
+        margin-left: 10rem;
+    }
+    
+}
+
+@media  screen  and ( max-width: 430px) {
+    #quote-box{
+        color: hotpink;
+        width: 345px;
+        text-align: justify;
+        border: 2px solid ;
+       }
+
+       #author{
+           margin-left: 6rem;;
+        }
+        
+        button{
+            margin: 3px;
+        }
+        
+}
+@media  screen  and ( max-width: 394px) {
+        #quote-box{
+            width: 280px;
+            font-size: 17px;
+            font-weight: 600;
+        }
+        
+        #author{
+            margin-left: 3rem;
+        }
+        #new-quote{
+            margin-top: 13px;
+        }
 }
