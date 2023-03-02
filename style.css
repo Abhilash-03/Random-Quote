@@ -40,6 +40,8 @@ button{
     margin-left: 27rem;
     margin-top: 1rem;
     font-size: 24px;
+    font-weight: 700;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 #quote-left{
